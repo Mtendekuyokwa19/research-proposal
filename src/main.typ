@@ -56,6 +56,13 @@
 
 Bachelor of Science in Information Technology
 
+*MODULE* 
+
+Project
+
+*MODULE CODE* 
+
+CIT-PRJ-411
 
 
 *RESEARCH TITLE* 
@@ -99,14 +106,8 @@ Machine learning models have become popular in Malawi and have been adopted in m
 As this adoption of the imaging models grows, trusting responses is crucial for both doctors and clinicians. Trusting the responses from models has been done in a "black box" form, where users do not know the internal working of the models to lead to the presented response @ribeiro2016whyitrustyou.
 
 The lack of an explanation for the responses presents a challenge as doctors are not able to validate the responses without using a secondary resource like another model or a human expert. It also forces the use of these models to radiologist and leaves other clinicians as radiologists are the only one who validate the responses from the models @Nicholas2023.
-
-
-
-
-
-
-
 == Problem Statement
+
 == Aim and objectives
 === Aim
 === Objectives
