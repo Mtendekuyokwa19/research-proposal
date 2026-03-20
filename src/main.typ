@@ -6,7 +6,7 @@
 // Document setup
 #set page(
   paper: "a4",
-  margin: (top: 2.5cm, bottom: 2.5cm, left: 2.5cm, right: 2.5cm),
+  margin: (top: 2.5cm, bottom: 2.5cm, left: 2.0cm, right: 2.0cm),
   number-align: bottom,
   numbering:"1"
 )
@@ -58,7 +58,8 @@ Bachelor of Science in Information Technology
 
 
 
-*Research Title * 
+*RESEARCH TITLE* 
+
  Development Of Tuberclosis Detection Model With Explainable Visualizations.
 
 
@@ -86,4 +87,30 @@ Dr Amelia Taylor
   title: "TABLE OF CONTENTS",
 )
 
+
 #pagebreak()
+
+#set align(start)
+= Chapter 1: Introduction
+
+== Introduction
+
+Machine learning models have become popular in Malawi and have been adopted in multiple fields One of these fields is healthcare, where imaging models are used for disease detection @JobibaKuhes. 
+As this adoption of the imaging models grows, trusting responses is crucial for both doctors and clinicians. Trusting the responses from models has been done in a "black box" form, where users do not know the internal working of the models to lead to the presented response @ribeiro2016whyitrustyou.
+
+The lack of an explanation for the responses presents a challenge as doctors are not able to validate the responses without using a secondary resource like another model or a human expert. It also forces the use of these models to radiologist and leaves other clinicians as radiologists are the only one who validate the responses from the models @Nicholas2023.
+
+
+
+
+
+
+
+== Problem Statement
+== Aim and objectives
+=== Aim
+=== Objectives
+== Significance of study
+== Conclusion
+
+#bibliography("ref.bib",style: "./apa.csi",title: "References" )
