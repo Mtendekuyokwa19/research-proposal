@@ -13,7 +13,7 @@
 
 #set text(
   size: 12pt,
-  font: "Arial"
+  font:"Maple Mono NF"
 )
 #show heading: it => [
   #v(6pt)  // Space before heading
@@ -109,7 +109,7 @@ the project and why it is important to develop the Tuberculosis detection model 
 == Background of the study
 Tuberculosis , also known as white death, is a contagious disease caused by Mycobacterium tuberculosis bacteria @wikipedia. According to the World Health Organization, tuberculosis has caused over 2.5 million deaths in the African region. Narrowing into Malawi, the country has managed to combat Tuberculosis incidence with a 31% decline and  the TB/HIV coinfection rate has dropped by 43% @kuhes. In its goal to have 50% reduction in TB incidence by 2025, Malawi has been ultraPortable X-ray which can be used by different healthcare workers not only radiologists.
 
-Machine learning models have become popular in Malawi and have been adopted in healthcare, where imaging models are used for tuberculosis detection @JobibaKuhes. In  the wake of combatting Tuberculosis, Malawi used CAD4TB @kuhes. CAD4TB is a portable Artifical Intelligence(AI) tuberculosis detection device. This device has predictive analysis and can work locally without internet connection. 
+Machine learning models have become popular in Malawi and have been adopted in healthcare, where imaging models are used for tuberculosis detection @JobibaKuhes. In  the wake of combatting Tuberculosis, Malawi used Computer Aided Detection for Tuberculosis(CAD4TB) @kuhes. CAD4TB is a portable Artifical Intelligence(AI) tuberculosis detection device. This device has predictive analysis and can work locally without internet connection. 
 As this adoption of the imaging models grows, trusting responses is crucial for both doctors and clinicians. Trusting the responses from models has been done in a "black box" form, where users do not know the internal working of the models to lead to the presented response @ribeiro2016whyitrustyou. 
 
 The lack of an explanation for the responses presents a challenge as doctors are not able to validate the responses without using a secondary resource like another model or a human expert. It also forces the use of these models to radiologist and leaves other clinicians as radiologists are the only one who validate the responses from the models @Nicholas2023.
@@ -155,13 +155,16 @@ Artificial intelligence (AI) is the capability of computational systems to perfo
 Artificial intelligence has multiple fields such as machine learning, deep learning and computer vision. Machine learning is a subset of AI that focuses on the development of algorithms that can learn from data and make predictions or decisions without being explicitly programmed @wikipediaAI. Most imaging models are built with integration of deep learning and computer vision.
 
 === Tuberculosis Detection
-Tuberculosis detection is the process of identifying the presence of tuberculosis in a patient. Tuberculosis detection can be done in numerous ways namely, skin test with tuberculin injection, blood tests, sputum tests where the patient mucus is tested for tuberculosis @mayoclinic. Malawi has adopted most of these techniques with an addition of CAD4TB, digital X-ray and GeneXpert @delft.  
+Tuberculosis detection is the process of identifying the presence of tuberculosis in a patient. Tuberculosis detection can be done in numerous ways namely, skin test with tuberculin injection, blood tests, sputum tests where the patient mucus is tested for tuberculosis @mayoclinic. Malawi has adopted most of these techniques with an addition of CAD4TB, digital X-ray and GeneXpert @delft. Tuberculosis being the ninth leading cause of death it is important that early detection is achieved. 
 
 === Explainable AI
 This is a field of research that explores methods that provide humans with the ability of intellectual oversight over AI algorithms @wikexai.
 Explainable AI aims to make AI decisions transparent, understandable, and interpretable. The
 lack of interpretability in AI systems has raised concerns about trust, accountability, and fairness. Without explainations user is left in the dark unable to understand why the decision was made or what could be done for improvement @hsieh2024comprehensiveguideexplainableai. Models might sometimes predict an outcome with high accuracy, but the reasoning behind it is unkown. The lack of explainability leads trust and accountability issues, it also leads to easir debugging of models hence finding points of improvements.
 
+== Current Systems and Weaknesses
+There are multiple AI integrated tuberculosis detection models already developed. The following are the most notable ones.
+=== CAD4TB
 
-
+Computer Aided Detection for Tuberculosis(CAD4TB) is an AI powered tuberculosis detection device. It is developed and owned Delft Imaging. It intergrates AI chest x-ray software with EPICON's epi control platform.The AI software part works by marking lung field with abnormalities  as TB, assigning a score in percentage and produces a heatmap of chest abnormality  . Ultra-portable X-ray systems (UPX) powered with CAD allowed also key populations living in remote areas without internet, to access high quality TB screening services @Checktb. 
 #bibliography("ref.bib",style: "./apa.csi",title: "References" )
