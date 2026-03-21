@@ -101,15 +101,16 @@ Dr Amelia Taylor
 = Chapter 1: Introduction
 
 == Chapter Introduction
-This chapter introduces the study project presenting the background of Tuberculosis
-and how Machine learning imaging models together with explainability take part in use. The chapter focuses on the research problem, the aim of the
+This chapter introduces the study project, presenting the background of Tuberculosis
+and how Machine learning imaging models together with explainability take part in its management. The chapter focuses on the research problem, the aim of the
 study and all objectives guiding the research.
-On top of that it will outline the research questions and their supporting questions
-helping in the research. The main purpose of this chapter is to provide the context of
-the project and why it is important to build the AI-based flood predication system.
+The chapter also outline the research questions together with their supporting questions
+. The main goal of this chapter is to provide a comprehensive overview of 
+the project and why it is important to develop the Tuberculosis detection model with explainable visualizations.
 == Background of the study
+Tuberculosis , also known as white death, is a contagious disease caused by Mycobacterium tuberculosis bacteria @wikipedia. According to the World Health Organization, tuberculosis has caused over 2.5 million deaths in the African region. Narrowing into Malawi, the country has managed to combat Tuberculosis incidence with a 31% decline and  the TB/HIV coinfection rate has dropped by 43% @kuhes. In its goal to have 50% reduction in TB incidence by 2025, Malawi has been ultraPortable X-ray which can be used by different healthcare workers not only radiologists.
 
-Machine learning models have become popular in Malawi and have been adopted in multiple fields One of these fields is healthcare, where imaging models are used for disease detection @JobibaKuhes. 
+Machine learning models have become popular in Malawi and have been adopted in healthcare, where imaging models are used for tuberculosis detection @JobibaKuhes. In  the wake of combatting Tuberculosis, Malawi used CAD4TB @kuhes. CAD4TB is a portable Artifical Intelligence(AI) tuberculosis detection device. This device has predictive analysis and can work locally without internet connection. 
 As this adoption of the imaging models grows, trusting responses is crucial for both doctors and clinicians. Trusting the responses from models has been done in a "black box" form, where users do not know the internal working of the models to lead to the presented response @ribeiro2016whyitrustyou. 
 
 The lack of an explanation for the responses presents a challenge as doctors are not able to validate the responses without using a secondary resource like another model or a human expert. It also forces the use of these models to radiologist and leaves other clinicians as radiologists are the only one who validate the responses from the models @Nicholas2023.
