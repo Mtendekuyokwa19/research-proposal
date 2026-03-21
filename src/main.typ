@@ -126,15 +126,18 @@ The objectives of this project are:
 - To collect tuberculosis data
 - To develop a tuberculosis detection model.
 - To develop an explainable visualization for the tuberculosis detection model.
-- To evaluate the tuberculosis detection model with explainable visualizations.
 - To develop an interface for interaction with models
 == Research Questions
 The research questions of this project are:
 - How does tuberculosis detection model with explainable visualizations impact analysis?
-- How efficient is a model that is running locally going to affect perfomance of clinicians?
+- How efficient is a model that is running locally going to affect performance of clinicians?
 - What do different explainable engines affect clinicians in their decision making?
 == Significance of study
-The Significance of this study s
-== Conclusion
+This study is significant as it directly combats tuberculosis as whilst reducing cost and increasing adoptability parameters.
+As imaging models increase in adoption, catching errors in them has never become more important as these errors can lead to misdiagnosis and wrong treatment. 
+The development of a tuberculosis model with explainability is of great importantance, as it allows catching errors during diagnosis. It also allows the clinicians to easily understand under the hood of the  model hence better guide people responsible for training models on how to patch the models.
+Furthermore, this study fits in malawian context as portable CAD4TB are being pushed by the ministry of health. These existing models are bound to CAD4TB devices and lack portability. The existing models also are expensive.  
 
+== Summary
+In conclusion, this study aims to develop a tuberculosis detection model with explainable visualizations. The development focuses on catching false positives and false negatives. By providing a providing a portable interface it will have a similar or larger impact as CAD4TB. The portability and low-cost of the model will also increase adoption in local hospitals and assist in the combating of TB in Malawi.
 #bibliography("ref.bib",style: "./apa.csi",title: "References" )
