@@ -98,9 +98,8 @@ Dr Amelia Taylor
 #pagebreak()
 
 #set align(start)
-= Chapter 1: Introduction
+= Chapter One: Introduction
 
-== Chapter Introduction
 This chapter introduces the study project, presenting the background of Tuberculosis
 and how Machine learning imaging models together with explainability take part in its management. The chapter focuses on the research problem, the aim of the
 study and all objectives guiding the research.
@@ -116,13 +115,19 @@ As this adoption of the imaging models grows, trusting responses is crucial for 
 The lack of an explanation for the responses presents a challenge as doctors are not able to validate the responses without using a secondary resource like another model or a human expert. It also forces the use of these models to radiologist and leaves other clinicians as radiologists are the only one who validate the responses from the models @Nicholas2023.
 
 == Problem Statement
-Many hospitals in Malawi do not use Tuberculosis imaging model for detection despite having chest X-ray machine. This is due to multiple reasons one of them being lack of trust in it and responses @PhilLI. As a result, hospitals rely on radiologist and infectious disease experts to assist in the work. With the shortage of radiologists in Malawi @JobibaKuhes, delays in diagnosis are caused and usually in most hospitals, someone who is not skilled in the field is used to diagnose the disease. Henceforth, there is a need a comprehensive, tuberculosis model with explainable visualizations to aid both the skilled clinicians easily catch false positives in the model and the unskilled clinicians to easily understand the model's response.
+Many hospitals in Malawi do not use Tuberculosis imaging model for detection despite having chest X-ray machine. This is due to multiple reasons namely, technology devices like CAD4TB which has embeded models are expensive. Secondly,   lack them being lack of trust in model responses as they lack explainability @PhilLI. As a result, hospitals rely on radiologist and infectious disease experts to assist in the work. With the shortage of radiologists in Malawi @JobibaKuhes, delays in diagnosis are caused and usually in most hospitals, someone who is not skilled in the field is used to diagnose the disease. Henceforth, there is a need a comprehensive, tuberculosis model with explainable visualizations to aid both the skilled clinicians easily catch false positives in the model and the unskilled clinicians to easily understand the model's response.
 
 
 == Aim and objectives
 === Aim
-
+The aim of this project is to develop a tuberculosis detection model with explainable visualizations.
 === Objectives
+The objectives of this project are:
+- To collect tuberculosis data
+- To develop a tuberculosis detection model.
+- To develop an explainable visualization for the tuberculosis detection model.
+- To evaluate the tuberculosis detection model with explainable visualizations.
+- To develop an interface for interaction with models
 == Significance of study
 == Conclusion
 
