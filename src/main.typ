@@ -171,5 +171,15 @@ The AI software part works by marking lung field with abnormalities  as TB, assi
 The main downside to CAD4TB is that it does not have explainability. This is important as it assist the operator to understand the models response and be able to mark the it as a false positive or a false negative. It will also assists in debugging of models so that they  know areas of improvement.
 Secondly, the device is expensive compared to having your own model.
 
+=== Lunit insight CXR
+The Lunit INSIGHT CXR is a deep learning software that assists radiologist in chest x-ray. The AI can detect multiple diseases namely;atelectasis, calcification, cardiomegaly, consolidation, fibrosis, mediastinal widening, nodule, pleural effusion, pneumoperitoneum, acute bone fracture, and tuberculosis. Like the CAD4TB, it also includes the heatmap analysis pane. It also has abnormality scores inidicating the probability of the judgement @Lunit.
 
+Unlike the CAD4TB, This has a small component of explainability as it shows the patches that make it think it has a lung disease but the issue is that these marks are just general without any specifity to what disease.
+Furthermore, another downside to this is that it lacks portability hence cannot be used in mobile for TB campaigns as it will need very strong devices which might be more expensive compared to CAD4TB. Lastly, the models cannot be trained and finetued with the new data being collected by the hospital @LunitGH.
+
+=== CRISPR-based TB diagnosis
+The  Clustered Regularly Interspersed Short Palindromic Repeats (CRISPR) system has been updated recentnly to start using Machine Learning techniques. With Machine Learning techniques, CRISPR works by taking samples of test i.e blood or sputum and the system adds a fluorenscent reporter with cleavable nucleic acid linker,
+reporters produce fluorenscent signals which are made are taken and run into CNN models to mark whether person has TB or not @CRISPR. 
+
+The main downside to this is that it is not portable and requires a lab to run the tests. It also requires a person with technical skills to run the tests. Lastly, it is expensive as it requires a lab to run the tests.
 #bibliography("ref.bib",style: "./apa.csi",title: "References" )
