@@ -128,7 +128,13 @@ The objectives of this project are:
 - To develop an explainable visualization for the tuberculosis detection model.
 - To evaluate the tuberculosis detection model with explainable visualizations.
 - To develop an interface for interaction with models
+== Research Questions
+The research questions of this project are:
+- How does tuberculosis detection model with explainable visualizations impact analysis?
+- How efficient is a model that is running locally going to affect perfomance of clinicians?
+- What do different explainable engines affect clinicians in their decision making?
 == Significance of study
+The Significance of this study s
 == Conclusion
 
 #bibliography("ref.bib",style: "./apa.csi",title: "References" )
