@@ -13,7 +13,7 @@
 
 #set text(
   size: 12pt,
-  font:"Maple Mono NF"
+  font:""
 )
 #show heading: it => [
   #v(6pt)  // Space before heading
@@ -63,7 +63,6 @@ Project
 *MODULE CODE* 
 
 CIT-PRJ-411
-
 
 *RESEARCH TITLE* 
 
@@ -167,4 +166,5 @@ There are multiple AI integrated tuberculosis detection models already developed
 === CAD4TB
 
 Computer Aided Detection for Tuberculosis(CAD4TB) is an AI powered tuberculosis detection device. It is developed and owned Delft Imaging. It intergrates AI chest x-ray software with EPICON's epi control platform.The AI software part works by marking lung field with abnormalities  as TB, assigning a score in percentage and produces a heatmap of chest abnormality  . Ultra-portable X-ray systems (UPX) powered with CAD allowed also key populations living in remote areas without internet, to access high quality TB screening services @Checktb. 
+
 #bibliography("ref.bib",style: "./apa.csi",title: "References" )
