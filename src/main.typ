@@ -146,7 +146,22 @@ In conclusion, this study aims to develop a tuberculosis detection model with ex
 
 *Chapter Introduction*
 
-This chapter presents the literature review for the development of a tuberculosis detection model with explainable visualizations, structing the  ground work for the building of
+This chapter presents the literature review for the development of a tuberculosis detection model with explainable visualizations, structuring the  groundwork for the building the interface, imaging model and explainable visualizations engines.
+The chapter begins with discussion of key concepts so that we unfold the meaning of terms used in the study then later evaluates current systems and their weaknesses. The chapter concludes by looking into the research gap and how this study will address the gap.
+
+== Key Concepts and Terms
+=== Artificial Intelligence
+Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making @wikipediaAI.
+
+Artificial intelligence has multiple fields such as machine learning, deep learning and computer vision. Machine learning is a subset of AI that focuses on the development of algorithms that can learn from data and make predictions or decisions without being explicitly programmed @wikipediaAI. Most imaging models are built with integration of deep learning and computer vision.
+
+=== Tuberculosis Detection
+Tuberculosis detection is the process of identifying the presence of tuberculosis in a patient. Tuberculosis detection can be done in numerous ways namely, skin test with tuberculin injection, blood tests, sputum tests where the patient mucus is tested for tuberculosis @mayoclinic.
+
+=== Explainable AI
+This is a field of research that explores methods that provide humans with the ability of intellectual oversight over AI algorithms @wikexai.
+Explainable AI aims to make AI decisions transparent, understandable, and interpretable. The
+lack of interpretability in AI systems has raised concerns about trust, accountability, and fairness. Without explainations user is left in the dark unable to understand why the decision was made or what could be done for improvement @hsieh2024comprehensiveguideexplainableai.  
 
 
 #bibliography("ref.bib",style: "./apa.csi",title: "References" )
