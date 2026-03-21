@@ -152,16 +152,16 @@ The chapter begins with discussion of key concepts so that we unfold the meaning
 == Key Concepts and Terms
 === Artificial Intelligence
 Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making @wikipediaAI.
-
 Artificial intelligence has multiple fields such as machine learning, deep learning and computer vision. Machine learning is a subset of AI that focuses on the development of algorithms that can learn from data and make predictions or decisions without being explicitly programmed @wikipediaAI. Most imaging models are built with integration of deep learning and computer vision.
 
 === Tuberculosis Detection
-Tuberculosis detection is the process of identifying the presence of tuberculosis in a patient. Tuberculosis detection can be done in numerous ways namely, skin test with tuberculin injection, blood tests, sputum tests where the patient mucus is tested for tuberculosis @mayoclinic.
+Tuberculosis detection is the process of identifying the presence of tuberculosis in a patient. Tuberculosis detection can be done in numerous ways namely, skin test with tuberculin injection, blood tests, sputum tests where the patient mucus is tested for tuberculosis @mayoclinic. Malawi has adopted most of these techniques with an addition of CAD4TB, digital X-ray and GeneXpert @delft.  
 
 === Explainable AI
 This is a field of research that explores methods that provide humans with the ability of intellectual oversight over AI algorithms @wikexai.
 Explainable AI aims to make AI decisions transparent, understandable, and interpretable. The
-lack of interpretability in AI systems has raised concerns about trust, accountability, and fairness. Without explainations user is left in the dark unable to understand why the decision was made or what could be done for improvement @hsieh2024comprehensiveguideexplainableai.  
+lack of interpretability in AI systems has raised concerns about trust, accountability, and fairness. Without explainations user is left in the dark unable to understand why the decision was made or what could be done for improvement @hsieh2024comprehensiveguideexplainableai. Models might sometimes predict an outcome with high accuracy, but the reasoning behind it is unkown. The lack of explainability leads trust and accountability issues, it also leads to easir debugging of models hence finding points of improvements.
+
 
 
 #bibliography("ref.bib",style: "./apa.csi",title: "References" )
