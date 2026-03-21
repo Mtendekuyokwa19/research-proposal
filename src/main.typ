@@ -136,8 +136,17 @@ The research questions of this project are:
 This study is significant as it directly combats tuberculosis as whilst reducing cost and increasing adoptability parameters.
 As imaging models increase in adoption, catching errors in them has never become more important as these errors can lead to misdiagnosis and wrong treatment. 
 The development of a tuberculosis model with explainability is of great importantance, as it allows catching errors during diagnosis. It also allows the clinicians to easily understand under the hood of the  model hence better guide people responsible for training models on how to patch the models.
-Furthermore, this study fits in malawian context as portable CAD4TB are being pushed by the ministry of health. These existing models are bound to CAD4TB devices and lack portability. The existing models also are expensive.  
+Furthermore, this study fits in malawian context as portable CAD4TB are being pushed by the ministry of health @kuhes. However, these existing models are bound to CAD4TB devices and demands a technical person to understand them. The purchase of the CAD4TB can be slow as the country faces forex issue hence need for development of the models locally.  
 
 == Summary
-In conclusion, this study aims to develop a tuberculosis detection model with explainable visualizations. The development focuses on catching false positives and false negatives. By providing a providing a portable interface it will have a similar or larger impact as CAD4TB. The portability and low-cost of the model will also increase adoption in local hospitals and assist in the combating of TB in Malawi.
+In conclusion, this study aims to develop a tuberculosis detection model with explainable visualizations. The development focuses on catching false positives and false negatives. By providing a providing a portable interface it will have a similar or larger impact as CAD4TB. The portability and low-cost of the model will also increase adoption in local hospitals and assist in the combating of TB in Malawi. 
+
+#pagebreak()
+= Chapter Two: Literature Review
+
+*Chapter Introduction*
+
+This chapter presents the literature review for the development of a tuberculosis detection model with explainable visualizations, structing the  ground work for the building of
+
+
 #bibliography("ref.bib",style: "./apa.csi",title: "References" )
