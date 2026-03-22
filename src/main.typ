@@ -1,5 +1,4 @@
 // APA 7th Edition Setup
-
 #import "@preview/cetz:0.2.2": canvas, draw
 #import "@preview/tablex:0.0.8": tablex, hlinex, vlinex, colspanx, rowspanx
 
@@ -200,5 +199,115 @@ This chapter outlines the research methodology to be utilized in the development
 == Research Approach
 This study can be done in multiple was to achieve the same goal of development but the one that fits it perfectly will be a mixture of both qualitative and quantitative approach. The quantitative approach will be used to help in the collection of data and images to be used in the training of the model. The qualitative approach will be applied when testing and refining of the model after development.
 
+The quantitative core of the approach tries to source as much images of tuberculosis as possible. Having a collection of these images will increase the range of the data will make the model sharper and not easily malfunction when it receives anomolies. As much as this is a double edged sword in the sense that it might lead to overfitting of the model @overfitting. This will then make the model to also not perform accordingly.
 
+The qualitative segment of the approach encompasses reviewing the thoughts of the radiologists on using AI-imaging models without explainability and with explainability. This will help understand how much of an impact explainability has on the radiologists. It will also help understand where it is best to swam in the explainability and what type of visualizations work best.  
+
+Using mixed approach is best as it will allow to tick all the checkboxes and achieve the perfect model that meets the users need. It allows meeting both the social and the technical part of the project.
+
+== Research Strategy
+Multiple strategies would have fit this study like agile or design science reasearch but the best one that fits the agile approach. Based on the needs for the adoptability and flexibility, agile approach is the right technique as rigid strategy will struggle to keep pace. The core of agile is to be iterative as much as possible with the model being refined in managable stages. This will allow better development as new opportunities arise.
+
+Another good reason for picking agile over other strategies is how it manages risk. Agile development detects earlier the risk and helps in mitigating them as soon as possible. This is important in model development as a minor error in one phase might lead to faulty and biased model @agileai. The agile will also help development of the model as soon as possible and test it with various explainability engines like LIME. 
+
+Scrum is the leading choice when it comes to agile development. The Scrum framework works by segmenting of the project into a timeboxed period @scrum. Scrum is built on continous feedback and flexibility. Model development is not linear and simple change in parameters can affect the output both negatively and positively. Scrum iterative nature allows easy adoption of feedback as the changes come in. 
+
+== Sampling
+This is the act of choosing only a subset of data to represent a whole population. The technique used for sampling should make sure both operational and strategic viewpoints are represented for good model development.  
+=== Sampling techniques
+The research will employ purposive sampling where participants are chosen from based on their  involvement in tuberculosis. This will allow participants to be knowledgable and have a good overall impact to the project. The participant to be sampled will be clinicians and radiologists. Clinicians are chosen because they have a general feel of the whole process that goes through during patients journey when dealing with tuberculosis. Radiologists are chosen because they are the ones who use x-ray machines and have a feel on how different x-ray images and results mean.
+
+For sampling of data and images the research will use convenience sampling. This means data will be collected to sources which have open source datasets like kaggle, National Institute of Health and National Institute of Allergy and infectious disease. This broad casting of the net will allow the model to be trained adequetly and not be biased towards a specific type of image. It will also allow having enough data for testing without using in-sample evaluation which causes false positives.
+
+== Data collection
+Data collection will aid in the proper development of the model and proper intergration with the interface. This will be both primary and secondary data. 
+
+=== Document analysis 
+This is a method of data acquisition where one looks at already existing information. This collection method is chosen because currently alot of models already exist and have data which is already available and opensource for instance the National Institute of Health. This method is also prime as it allows one to  see common shortfalls in the models and also in the data. Considering how prevelant tuberculosis data is, this  method has the least amount of friction compared to other methods as medical data is protected by law to not be released easily unless permissions are given by the state @documentanalysis. 
+
+=== Interviews
+Minor interviews are to be conducted to with clinicians to get a perspective on how explainability aftects the course of action in terms of treatment and diagnosis. This will help solidifying a framework that is perfect enough to be used in the development of the model. Based on the open ended response, it will help choose the best visualizations to be used in the application. Good visualizations will affect also affect the engine to be used for explainability.
+
+== Data analysis
+Since the system has more than one segment, data will be reviewed differently. Some data is of images and some is of interviews. 
+
+=== Use case diagrams
+As much as use case diagrams are used in system design, they  can also be used in the data analysis. The use cause diagrams will help analyse the information be the clinicians collected in interviews, evaluating their workflow and how they expect the workflow to be like with the model. It will help make the choice of whether to make the interface from scratch or use an existing one which the health experts are familiar with. 
+
+=== Image Classification and charts
+Most of the data to be worked on is already labeled hence charts will be plotted to analyse the qualities and representaion of images. This will help prevent over-representation of one group which might lead to biasing in the model. The charts will also help to choose a good base imaging models. Some models are like YOLOv6 are popular but are very large. The only advantage of the YOLOv6 is that it works with multiple types of images. 
+
+== Ethical considaration
+With artitifical intelligence, ethics have to be considered because if one overlooks them social problems arise. The study will consider multiple of these ethical issues.
+=== Participation
+For the study to be successful, the participation of the radiologists and clinicians is important. The study will be conducted in a way that the participants are not forced to participate. The participants will be given a choice to participate or not. Participants can withdraw from the study at any time. Participants will be given a choice to participate in the study anonymously. The participants will be given a choice to participate in the study with their names and images.
+
+=== Privacy
+Some of the imaging data is private like the NIAID data hence these will not be released after use and will be deleted after the study is complete. The data will be stored in a secure location and will be accessed only by the researchers. The data will be stored in a secure location and will be accessed only by the researchers. The data will be stored in a secure location and will be accessed only by the researchers.
+
+== Summary
+This chapter has looked at the research approach, strategy, sampling, data collection, data analysis and ethical considerations. The chapter has also looked at the research approach, strategy, sampling, data collection, data analysis and ethical considerations. The next chapter will discuss the system design and the development of the model.
+#pagebreak()
+
+= Chapter Four: Limitation of Study
+*Chapter Introduction*
+
+This chapter discusses the limitations of the study. The limitations are discussed in terms of the scope of the study, the resources available, the time frame and the expertise of the researchers. The limitations are discussed in the context of the study and the research questions. The limitations are discussed in the context of the study and the research questions.
+
+=== Training Hardware
+The training of model is being conducted on a very low end device and this will affect the outcome of the model in terms of quality. This can be mitigated by training for longer periods but that can cause overfitting. Alternatively, the model can be trained on google collab which has better specs but due to free tier pricing limitations, the models can only be trained while connected and the resource sharing might lead to slow training time. 
+
+=== Explainable engine choice 
+The choice of explainable engine will heavily depend on how resource intensive each of them are and how much complexity they add to the output. Local Interpretable Modal-agnostic Explanations (LIME) is a good choice but it is not perfect as it is not being actively maintained and has not been updated to the latest builds of models.
+SHAP on the other hand is being currently explored and is usesboth local and global agnonitic approaches but this might make the application large hence losing on portability.
+
+== Summary
+This chapter has looked at the limitations of the study. The next chapter will discuss the reasearch plan.
+#pagebreak()
+= Chapter Five: Research Plan
+*Chapter Introduction*
+
+This chapter outlines the research plan for the study. The research plan is divided into two main sections: the time frame and the budget. The time frame section outlines the activities to be undertaken and the duration of each activity. The budget section outlines the estimated cost of each activity.
+#set table(
+  stroke: none,
+  gutter: 0.2em,
+  fill: (x, y) => if y == 0 { gray.lighten(50%) }
+)
+
+== 5.1 Time Frame
+
+#table(
+  columns: (auto, 1fr),
+  inset: 10pt,
+  align: (left, left),
+  table.header([*ACTIVITY*], [*DURATION*]),
+  table.hline(),
+  [Proposal development], [Month 1],
+  [Literature review], [Month 1-2],
+  [Data collection], [Month 2-3],
+  [System design and development], [Month 3-4],
+  [Model training and testing], [Month 4-5],
+  [System evaluation], [Month 5],
+  [Report writing and submission], [Month 6],
+)
+
+#v(2em)
+
+== 5.2 Budget
+
+#table(
+  columns: (1fr, auto),
+  inset: 10pt,
+  align: (left, right),
+  table.header([*ITEM*], [*ESTIMATED COST (MWK)*]),
+  table.hline(),
+  [Data collection and transport], [80,000],
+  [Internet and data access], [50,000],
+  [Software tools and computing resources], [60,000],
+  [Printing and documentation], [40,000],
+  [Miscellaneous expenses], [30,000],
+  table.hline(),
+  [*Total Estimated Cost*], [*260,000*],
+)
+#pagebreak()
 #bibliography("ref.bib",style: "./apa.csi",title: "References" )
