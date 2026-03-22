@@ -190,5 +190,15 @@ The model to be built will also be leaner compared to the Lunit INSIGHT cxr as i
 
 == Summary
 This chapter has looked at the artificial intelligence, tuberculosis detection and explainability. The chapter also evaluated current models and their shortfalls. After evaluating these models, a gap was found that the proposed system will fill. The upcoming chapter will discuss the methodology of the study, pinpointing ways on how best the model will be developed.
+#pagebreak()
+
+= Chapter Three: Methodology
+*Chapter Introduction*
+
+This chapter outlines the research methodology to be utilized in the development of the suggested tuberculosis model with explainability inclusivity. The sections looks into the research approach which emphasizes practical field observation with development techniques. The research strategy is also discussed in the chapter where a system design approach is chosen. The chapter also discusses the data collection and analysis techniques to be used in the study.  
+
+== Research Approach
+This study can be done in multiple was to achieve the same goal of development but the one that fits it perfectly will be a mixture of both qualitative and quantitative approach. The quantitative approach will be used to help in the collection of data and images to be used in the training of the model. The qualitative approach will be applied when testing and refining of the model after development.
+
 
 #bibliography("ref.bib",style: "./apa.csi",title: "References" )
