@@ -182,4 +182,13 @@ The  Clustered Regularly Interspersed Short Palindromic Repeats (CRISPR) system 
 reporters produce fluorenscent signals which are made are taken and run into CNN models to mark whether person has TB or not @CRISPR. 
 
 The main downside to this is that it is not portable and requires a lab to run the tests. It also requires a person with technical skills to run the tests. Lastly, it is expensive as it requires a lab to run the tests.
+
+== Research gaps
+Multiple contextual challenges exist which justify the need for building a local tuberculosis detection model with explainability visualizations. Most of the existing models are expensive to acquire as they come with their own hardware like the CAD4TB and cannot be used on other hardwares. Secondly the models lack the component of explainability which is crucial in detection. The reasearch addresses the gap by proposing a tuberculosis detection model with explainable visualizations. The model will be portable and can be used on different type of devices. 
+
+The model to be built will also be leaner compared to the Lunit INSIGHT cxr as it is built specifically for TB and not other lung diseases. The explainability allows depiction of improvement points hence making it easir for people to debug and refine the next training cycle. 
+
+== Summary
+This chapter has looked at the artificial intelligence, tuberculosis detection and explainability. The chapter also evaluated current models and their shortfalls. After evaluating these models, a gap was found that the proposed system will fill. The upcoming chapter will discuss the methodology of the study, pinpointing ways on how best the model will be developed.
+
 #bibliography("ref.bib",style: "./apa.csi",title: "References" )
