@@ -255,7 +255,8 @@ This chapter has looked at the research approach, strategy, sampling, data colle
 This chapter discusses the limitations of the study. The limitations are discussed in terms of the scope of the study, the resources available, the time frame and the expertise of the researchers. The limitations are discussed in the context of the study and the research questions. The limitations are discussed in the context of the study and the research questions.
 
 === Training Hardware
-The training of model is being conducted on a very low end device and this will affect the outcome of the model in terms of quality. This can be mitigated by training for longer periods but that can cause overfitting. Alternatively, the model can be trained on google collab which has better specs but due to free tier pricing limitations, the models can only be trained while connected and the resource sharing might lead to slow training time. 
+The training of model is being conducted on a very low end device and this will affect the outcome of the model in terms of quality. This can be mitigated by training for longer periods but that can cause overfitting. Alternatively, the model can be trained on google collab which has better specs but due to free tier pricing limitations, the models can only be trained while connected and the resource sharing might lead to slow training time.
+//malawi liverpool trust
 
 === Explainable engine choice 
 The choice of explainable engine will heavily depend on how resource intensive each of them are and how much complexity they add to the output. Local Interpretable Modal-agnostic Explanations (LIME) is a good choice but it is not perfect as it is not being actively maintained and has not been updated to the latest builds of models.
