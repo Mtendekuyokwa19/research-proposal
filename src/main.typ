@@ -161,7 +161,7 @@ There are multiple AI integrated tuberculosis detection models already developed
 Computer Aided Detection for Tuberculosis(CAD4TB) is an AI powered tuberculosis detection device. It is developed and owned Delft Imaging. It intergrates AI chest x-ray software with EPICON's epi control platform @Delft-Imaging2025.
 The AI software works by marking lung field with abnormalities  as TB, assigning a score in percentage and producing a heatmap of chest abnormality. The Ultra-portable X-ray powered with CAD allows populations living in remote areas without internet, to access high quality TB screening services @CheckTB2025. 
 
-The main downside to CAD4TB is that it does not have explainability. This is important as it assist the operator to understand the models response and be able to mark it as a false positive or a false negative. It will also assists in debugging of models so that they know areas of improvement when reports are being made.
+The main downside to CAD4TB is that it does not have concrete explainability not simply heatmaps. This is important as it assist the operator to understand the models response and be able to mark it as a false positive or a false negative. It will also assists in debugging of models so that they know areas of improvement when reports are being made.
 Secondly, the device is expensive compared to having your own model that is crossplatform.
 
 === Lunit insight CXR
@@ -171,7 +171,9 @@ Unlike the CAD4TB, this has a small component of explainability as it shows the 
 Furthermore, another downside to this is that it lacks portability hence cannot be used in mobile for TB campaigns as it will need very strong devices which might be more expensive compared to CAD4TB. Lastly, the models cannot be trained and finetued with the new data being collected by the hospital @Lunit-insight-cxr42025.
 
 === QureAI
-This is an AI model that is currently deployed here in Malawi at the queen elizabeth amongst other hospitals. It is developed 
+This is an AI model that is currently deployed here in Malawi at the queen elizabeth amongst other hospitals. It is developed by Qure.ai Technologies Private Limited in USA. The model is multipurpose as it works on detection of TB, heart failure, Stroke and lung cancer. It also has case management component where reports are sent via the qxr app. A user simply uploads the image and the model returns a response with a heatmap and a score @Twabi2021. In a test by the Malawi liverpool wellcome trust, it had a 92% accuracy in TB detection. 
+
+Similar to CAD4TB, the core downside is lack of solid explainability. The heatmaps are not explainable as they do not show exactly what the model concluded if it was actually using those points marked. 
 
 == Research gaps
 
@@ -187,55 +189,75 @@ This chapter has looked at the artificial intelligence, tuberculosis detection a
 *Chapter Introduction*
 
 This chapter outlines the research methodology to be utilized in the development of the suggested tuberculosis model with explainability inclusivity. The sections looks into the research approach which emphasizes practical field observation with development techniques. The research strategy is also discussed in the chapter where a system design approach is chosen. The chapter also discusses the data collection and analysis techniques to be used in the study.  
+== Data Collection 
+Different forms of data are to be for this study namely; chest X-ray images and radiologist and clinician reports. The data will be collected from multiple sources namely; the National Institute of Allergy and Infectious Diseases (NIAID), the Queens Elizabeth Central Hospital (QECH) or any TB clinic in Malawi and Kaggle.
+=== Data collection techniques
+For each of the data to be collected, different techniques will be used so that the data is safely acquired and its integrity is kept intact. Data intergrity is important in this research as to prevent biases in conclusions made.
+=== Chest X-ray images
+The chest X-ray images will be collected from the NIAID and QECH. The images will be collected in a digital format and will be stored in a secure location. The images will be anonymized using UUIDS to prevent identification of the patients. The images will be collected in a way that the data is not biased towards any particular group.
+==== NIAID
+Data will be collected from the NIAID by using desk research appraoch where one asks for data from an already existing data source.The image data from NIAID will be collected by applying for their portal access programme. Once accepted, the dataset is made available by use of the NIAID portal and it can be downloaded and used.
+==== QECH
+The data will be collected from the queen elizabeth hospital by Information request technique. This will involve approval from the school and the hospital. A formal letter request atleast 10 chest x-ray images to be used for testing of the model. This will help to see how the model performs with data that is insample. 
+==== Kaggle
+Data will be collected from Kaggle by a technique called archival research where one will look for already existing datasets and use them. Considering how much open data is available on kaggle this technique is the best and has the least amount of friction. The data will be collected in a way that the data is not biased towards any particular group. The data will be collected in a way that the data is not biased towards any particular group.
+=== Radiologist and clinician reports
+Radiologist and clinician reports are important to evaluate how they use the model and how they interpret the results. The reports will be collected from the QECH. The reports will be collected in a digital format. The reports will be anonymized using UUIDS on names to prevent identification of the radiologists. 
+An academic visit to QECH is to be scheduled to visit the QECH radiology lab.During this visit the researchers will guide the researchers on how to use the model. A semi-structured interview is to be conducted with the radiologists to understand how they use the model and how they interpret the results.  
+==== Interview
+During the educational visit to the radiology lab at QECH, the researchers will conduct a semi-structured interview with the radiologists. The interview will feature questions querrying about explainability, model users and impact . This will allow a deep look into how explainability will impact the radiologist. The interview will be conducted in a way that the radiologists are not forced to participate. The interview will also help in determining on how best to design the user interface for the model so that a farmiliar experience is built.
 
-== Research Approach
-This study can be done in multiple ways to achieve the same goal of development but the one that fits it perfectly will be a mixture of both qualitative and quantitative approach. The quantitative approach will be used to help in the collection of data and images to be used in the training of the model. The qualitative approach will be applied when testing and refining of the model after development.
+==== Observation
+During the educational visit, the researcher will observe the radiologists using the model. The researcher will also observe how and when radiologists use explainability like heatmaps to make decisions. This will assist in validation of the importantance of explainability. 
+=== Sampling
+Considering we have multiple data sources, the sampling will be differently for each  type of data. 
+==== Chest X-ray images
+Multiple sources exist for chest x-ray images so inorder to achive a unbiased representation of the data stratified sampling will be used @PennStateIct. The  method divides a population into distinct, non-overlapping subgroups (strata) based on shared characteristics  and then uses random sampling to select individuals from each group. This unbiased approach will ensure that the data is not biased towards any particular group and the model to be built is not biased.
+==== Radiologist and clinician reports
+The radiologist reports will be collected from the QECH. The reports will be sampled using purposive sampling. Purposive sampling where participants are chosen from based on their  involvement in tuberculosis. This will allow participants pool to be knowledgeable and have a  positive overall impact to the project. Having knowledgeable participants will allow for a deeper understanding of the model and how explainability will be adopted in the whole workflow. 
 
-The quantitative core of the approach tries to source as much images of tuberculosis as possible. Having a collection of these images will increase the range of the data will make the model sharper and not easily malfunction when it receives anomalies. As much as this is a double-edged sword in the sense that it might lead to overfitting of the model , This will then make the model to also not perform accordingly @overfitting.
+== Machine learning approach
+This research will folow the Machine learning appraoch for development of model and folow the prototype appraoch for development of the interface. following the machine learning appraoch for model is a better choice compared to others because if focuses more on reproducability and data intergrity which is important in this research to easily trace back where model went wrong in case of errors in model. The prototype appraoch is a better choice compared to others because it focuses on the development of a prototype which is important in this research as it allows for testing of the model and interface with users.
+In the development of the model, we will follow the pyramid appraoch, which involve revisiting requirements at each stage of the process. This will ensure that the model is developed in a way that it meets the requirements of the users @Giunchiglia2023.
+The _fig1_ below shows how the pyramid model works. It is composed of the following components: Requirements Definition, Data curation, Model creation, Model training, Model testing and model deployment.
 
-The qualitative segment of the approach encompasses reviewing the thoughts of the radiologists and clinicians on using AI-imaging models without explainability and with explainability. This will help understand how much of an impact explainability has on the radiologists. It will also help understand where it is best to swam in the explainability engines and what type of visualizations work best for doctors. It will also help in getting opinions on how the flutter application should be designed to best fit the doctors needs.  
+#figure(
+  image("../pyramid.png", width: 80%),
+  caption: [
+    a figure of of the pyramid approach for model development @Giunchiglia2023
+  ],
+)
 
-Using mixed approach is best as it will allow to tick all the checkboxes and achieve the perfect model that meets the users need. It allows meeting both the social and the technical part of the project.
+=== Requirements Definition
+This involve specifying what each stage should do and making sure each stage achives it. It means if in one stage the results gotten are not the righ ones the researchers will go and reavaluate the requirement and iterate.
+=== Data curation
+This involves the evaluation of the collected data. The collected data is later labeled as per the requirements. As for this study it will mean classifying the images in TB or not. 
+=== Model creation
+This involves choosing of the base model for study. Since this will be development of  an imaging model, the base model will either *YOLOV6* or *Detectro2*. The base model assists in the process of developing the whole model without the need to do everything from scratch. Considering the maintaince lifecycle YOLOV6 has it will be chosen @Li2022. YOLOV6 is chosen because it is a convolution neural network and it performs more effiently with object detection compared to other techniques like random forest. CNNs excel at object detection because of the weight sharing which help to detect tumors regardless of where the feature is selected @Li2022. This will help as some patches of TB are small and might be missed by other models.
+=== Model Training
+This is an iterative process of feeding data into a machine learning algorithm to optimize its parameters, allowing it to learn patterns and make accurate predictions. This will reinforce the model to learn the patterns of TB and non TB images. Furthermore, the recording of losses made during the training so that one sees how to change the configurations of the base model inorder to reduce the losses. Losses make the model perfom poorly @Kumar2025.
+==== Explainability intergration
+Once the model has been chosen, an explainability engine is will be chosen. Multiple explainability engines exist like the Local Interpretable Modal-agnostic explainations(LIME) and the SHapley Additive exPlanations(SHAP). LIME generates perturbations (variations) of a data instance to see how the model behaves and fits a simple, interpretable model around that local, specific prediction. So for our model it will mean that it will work by pertuating the image and feeding the model into the trained model @Ribeiro2016.
+SHAP takes a game-theoretic approach to explain the model response. SHAP assigns each feature an importance value for a particular prediction by calculating how much that feature contributes to the outcome, averaged over all possible combinations of other features @Lundberg2017. 
+=== Model testing
+Each requirement made for the model will be tested to see if they have been met. If they have not been met it will demand that they have to be evaluated and see which stage affected this and go back to it. In this case, one of the tests will involve use of images from QECH which were not part of the training data. This will help to see how the model performs with data that is out of sample.  
+=== Model deployment
+//TODO: fix this
+The model will need to be deployed on a local server since it is against the law to have medical data outside the country or premise. This will involve containerization of the model 
 
-== Research Strategy
-Multiple strategies would have fit this study like design science reasearch but the best one that fits the agile approach. Based on the needs for the adoptability and flexibility, agile approach is the right technique as rigid strategy will struggle to keep pace. The core of agile is to be iterative as much as possible with the model being refined in managable stages. This will allow better development as new challenges arise.It will also allow better testing of the interface as it is being developed as different user interfaces affect how visualizations are perceived.
+== Application wrapper appraoch
+Since the development will require an interface as a middle way interaction between the model and the clinicians. Prototype is best because the goal is to develop a quick version of the interface that is similar to the current interfaces used by the clinicians.
 
-Another good reason for picking agile over other strategies is how it manages risk. Agile development detects the risk earlier and helps in mitigating them as soon as possible. This is important in model development as a minor error in one phase might lead to faulty and biased model @agileai. The agile will also help development of the model as soon as possible and test it with various explainability engines like Local Interpretable Model-agnostic Explanations (LIME) and SHapley Additive exPlanations (SHAP). 
-
-Scrum is the leading choice when it comes to agile development. The Scrum framework works by segmenting of the project into a timeboxed period @scrum. Scrum is built on continous feedback and flexibility. Model development is not linear and simple change in parameters can affect the output both negatively and positively. Scrum iterative nature allows easy adoption of feedback as the changes come in. 
-
-== Sampling
-This is the act of choosing only a subset of data to represent a whole population. The technique used for sampling should make sure both operational as strategic viewpoints are required for good model development.  
-=== Sampling techniques
-The research will employ purposive sampling where participants are chosen from based on their  involvement in tuberculosis. This will allow participants pool to be knowledgeable and have a positive overall impact to the project. The participant to be sampled will be clinicians and radiologists. Clinicians are chosen because they have a general feel of the whole process that goes through during patients journey when dealing with tuberculosis. Radiologists are chosen because they are the ones who use x-ray machines and have a feel on how different x-ray images and results mean.
-
-For sampling of data and images the research will use convenience sampling. This means data will be collected to sources which have open source datasets like kaggle, National Institute of Health and National Institute of Allergy and infectious disease. This broad casting of the net will allow the model to be trained adequetly and not be biased towards a specific type of image. It will also allow having enough data for testing without using in-sample evaluation which causes false positives.
-
-== Data collection
-Data collection will aid in the proper development of the model and proper intergration with the flutter application. This will be both primary and secondary data. 
-
-=== Document analysis 
-This is a method of data acquisition where one looks at already existing information. This collection method is chosen because currently alot of models already exist and have data which is opensource for instance the National Institute of Health. This method is also prime as it allows one to  see common shortfalls in the models and also in the data. Considering how prevelant tuberculosis data is, this  method has the least amount of friction compared to other methods as medical data is protected by law to not be released easily unless permissions are given by the state @documentanalysis. 
-
-=== Interviews
-Interviews are to be conducted to with clinicians to get a perspective on how explainability affects the course of action in terms of treatment and diagnosis. This will help solidifying a framework that is perfect enough to be used in the development of the model and Flutter application. Based on the open ended response, it will help choose the best visualizations to be used in the application. Good visualizations will affect also affect the engine to be used for explainability.
-
-== Data analysis
-Since the system has more than one segment, data will be reviewed differently. Some data is of images and some is of interviews. 
-
-=== Use case diagrams
-As much as use case diagrams are used in system design, they  can also be used in the data analysis. The use cause diagrams will help analyse the information be the clinicians collected in interviews, evaluating their workflow and how they expect the workflow to be like with the model. It will help make the choice of whether to make the flutter application from scratch in terms of user experience or use an existing one which the health experts are familiar with. 
-
-=== Image classification charts
-Most of the data to be worked on is already labeled hence charts will be plotted to analyse the qualities and representaion of images. This will help prevent over-representation of one group which might lead to biases in the model. The charts will also help to choose a good base imaging models. Some models are like YOLOv6 are popular but are very large. The only advantage of the YOLOv6 is that it works with multiple types of images. 
-
+The Prototype approach will specifically the of incremental prototyping where the prototype is refined after every feedback. This will help not to develop something that the clinicians do not want. It will also allow for new ideas to be accepted which were not stated in the initial stage. 
 == Ethical considaration
 With artitifical intelligence, ethics have to be considered because if one overlooks them social problems arise. The study will consider multiple of these ethical issues.
-=== Participation
-For the study to be successful, the participation of the radiologists and clinicians is important. The study will be conducted in a way that the participants are not forced to participate. Participants can withdraw from the study at any time. Participants will also be given a choice to participate in the study anonymously.
-
-=== Privacy
-Some of the imaging data is private like the NIAID data hence these will not be released after use and will be deleted after the study is complete. The data will be stored in a secure location and will be accessed only by the researchers. This will prevent malicious use of the data by third parties. The data will also be anonymized using UUIDS to prevent identification of the patients.
+#table(
+  columns: (auto, auto),
+  table.header[Risk][Description][Mitigation],
+  [Equpment bias],[Images from high-end hospitals perform better],[Test on diverse equipment/settings],
+  [Annotation bias],[Radiologist labels reflect subjective judgment],[Combine radiologist opinion + microbiology + clinical follow-up],
+  [Disease spectrum bias],[Training on severe cases only],[Include latent TB, pediatric TB, HIV-TB co-infection]
+)
 
 == Summary
 This chapter has looked at the research approach, strategy, sampling, data collection, data analysis and ethical considerations. The chapter has also looked at the research approach, strategy, sampling, data collection, data analysis and ethical considerations. The next chapter will discuss the system design and the development of the model.
@@ -248,7 +270,6 @@ This chapter discusses the limitations of the study. The limitations are discuss
 
 === Training Hardware
 The training of model is being conducted on a very low end device and this will affect the outcome of the model in terms of quality. This can be mitigated by training for longer periods but that can cause overfitting. Alternatively, the model can be trained on google collab which has better specs but due to free tier pricing limitations, the models can only be trained while connected to the internet and the resource sharing might lead to slow training time.
-//malawi liverpool trust
 
 === Explainable engine choice 
 The choice of explainable engine will heavily depend on how resource intensive each of them are and how much complexity they add to the output. Local Interpretable Modal-agnostic Explanations (LIME) is a good choice but it is not perfect as it is not being actively maintained and has not been updated to the latest builds of models.

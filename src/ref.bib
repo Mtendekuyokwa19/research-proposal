@@ -1,4 +1,26 @@
-
+@article{Giunchiglia2023,
+   abstract = {In the recent years, machine learning has made great advancements that have been at the root of many breakthroughs in different application domains. However, it is still an open issue how make them applicable to high-stakes or safety-critical application domains, as they can often be brittle and unreliable. In this paper, we argue that requirements definition and satisfaction can go a long way to make machine learning models even more fitting to the real world, especially in critical domains. To this end, we present two problems in which (i) requirements arise naturally, (ii) machine learning models are or can be fruitfully deployed, and (iii) neglecting the requirements can have dramatic consequences. We show how the requirements specification can be fruitfully integrated into the standard machine learning development pipeline, proposing a novel pyramid development process in which requirements definition may impact all the subsequent phases in the pipeline, and viceversa.},
+   author = {Eleonora Giunchiglia and Fergus Imrie and Mihaela van der Schaar and Thomas Lukasiewicz},
+   doi = {10.3233/nai-240767},
+   issn = {2949-8732},
+   journal = {Neurosymbolic Artificial Intelligence},
+   month = {4},
+   publisher = {SAGE Publications},
+   title = {Machine Learning with Requirements: a Manifesto},
+   volume = {1},
+   url = {https://arxiv.org/abs/2304.03674v2},
+   year = {2023}
+}
+@misc{PennStateIct,
+   author = {PennState},
+   title = {Machine Learning — ICT Research Methods},
+   url = {https://ictresearchmethods.nl/machine-learning/}
+}
+@misc{PennState,
+   author = {PennState},
+   title = {6  Part A: Stratified Sampling – STAT 506 | Sampling Theory and Methods},
+   url = {https://online.stat.psu.edu/stat506/Lesson06}
+}
 
 @misc{Suthers2025,
    author = {Mark Suthers},
@@ -117,6 +139,36 @@ Artificial Intelligence},
    url = {https://delft.care/malawi-active-tb-case-finding-with-onestoptb-clinic/}
 }
 
+@article{Kumar2025,
+   abstract = {Diffusion models have emerged as powerful generative models, inspiring extensive research into their underlying mechanisms. One of the key questions in this area is the loss functions these models shall train with. Multiple formulations have been introduced in the literature over the past several years with some links and some critical differences stemming from various initial considerations. In this paper, we explore the different target objectives and corresponding loss functions in detail. We present a systematic overview of their relationships, unifying them under the framework of the variational lower bound objective. We complement this theoretical analysis with an empirical study providing insights into the conditions under which these objectives diverge in performance and the underlying factors contributing to such deviations. Additionally, we evaluate how the choice of objective impacts the model ability to achieve specific goals, such as generating high-quality samples or accurately estimating likelihoods. This study offers a unified understanding of loss functions in diffusion models, contributing to more efficient and goal-oriented model designs in future research.},
+   author = {Dibyanshu Kumar and Philipp Vaeth and Magda Gregorová},
+   month = {7},
+   title = {Loss Functions in Diffusion Models: A Comparative Study},
+   url = {https://arxiv.org/abs/2507.01516v1},
+   year = {2025}
+}
+
+@article{Lundberg2017,
+   abstract = {Understanding why a model makes a certain prediction can be as crucial as the prediction's accuracy in many applications. However, the highest accuracy for large modern datasets is often achieved by complex models that even experts struggle to interpret, such as ensemble or deep learning models, creating a tension between accuracy and interpretability. In response, various methods have recently been proposed to help users interpret the predictions of complex models, but it is often unclear how these methods are related and when one method is preferable over another. To address this problem, we present a unified framework for interpreting predictions, SHAP (SHapley Additive exPlanations). SHAP assigns each feature an importance value for a particular prediction. Its novel components include: (1) the identification of a new class of additive feature importance measures, and (2) theoretical results showing there is a unique solution in this class with a set of desirable properties. The new class unifies six existing methods, notable because several recent methods in the class lack the proposed desirable properties. Based on insights from this unification, we present new methods that show improved computational performance and/or better consistency with human intuition than previous approaches.},
+   author = {Scott M. Lundberg and Su In Lee},
+   issn = {10495258},
+   journal = {Advances in Neural Information Processing Systems},
+   month = {5},
+   pages = {4766-4775},
+   publisher = {Neural information processing systems foundation},
+   title = {A Unified Approach to Interpreting Model Predictions},
+   volume = {2017-December},
+   url = {https://arxiv.org/abs/1705.07874v2},
+   year = {2017}
+}
+@article{Li2022,
+   abstract = {For years, the YOLO series has been the de facto industry-level standard for efficient object detection. The YOLO community has prospered overwhelmingly to enrich its use in a multitude of hardware platforms and abundant scenarios. In this technical report, we strive to push its limits to the next level, stepping forward with an unwavering mindset for industry application. Considering the diverse requirements for speed and accuracy in the real environment, we extensively examine the up-to-date object detection advancements either from industry or academia. Specifically, we heavily assimilate ideas from recent network design, training strategies, testing techniques, quantization, and optimization methods. On top of this, we integrate our thoughts and practice to build a suite of deployment-ready networks at various scales to accommodate diversified use cases. With the generous permission of YOLO authors, we name it YOLOv6. We also express our warm welcome to users and contributors for further enhancement. For a glimpse of performance, our YOLOv6-N hits 35.9% AP on the COCO dataset at a throughput of 1234 FPS on an NVIDIA Tesla T4 GPU. YOLOv6-S strikes 43.5% AP at 495 FPS, outperforming other mainstream detectors at the same scale~(YOLOv5-S, YOLOX-S, and PPYOLOE-S). Our quantized version of YOLOv6-S even brings a new state-of-the-art 43.3% AP at 869 FPS. Furthermore, YOLOv6-M/L also achieves better accuracy performance (i.e., 49.5%/52.3%) than other detectors with a similar inference speed. We carefully conducted experiments to validate the effectiveness of each component. Our code is made available at https://github.com/meituan/YOLOv6.},
+   author = {Chuyi Li and Lulu Li and Hongliang Jiang and Kaiheng Weng and Yifei Geng and Liang Li and Zaidan Ke and Qingyuan Li and Meng Cheng and Weiqiang Nie and Yiduo Li and Bo Zhang and Yufei Liang and Linyuan Zhou and Xiaoming Xu and Xiangxiang Chu and Xiaoming Wei and Xiaolin Wei},
+   month = {9},
+   title = {YOLOv6: A Single-Stage Object Detection Framework for Industrial Applications},
+   url = {https://arxiv.org/abs/2209.02976v1},
+   year = {2022}
+}
 @article{Mller2023,
    abstract = {Visual inspection tasks often require humans to cooperate with AI-based image classifiers. To enhance this cooperation, explainable artificial intelligence (XAI) can highlight those image areas that have contributed to an AI decision. However, the literature on visual cueing suggests that such XAI support might come with costs of its own. To better understand how the benefits and cost of XAI depend on the accuracy of AI classifications and XAI highlights, we conducted two experiments that simulated visual quality control in a chocolate factory. Participants had to decide whether chocolate moulds contained faulty bars or not, and were always informed whether the AI had classified the mould as faulty or not. In half of the experiment, they saw additional XAI highlights that justified this classification. While XAI speeded up performance, its effects on error rates were highly dependent on (X)AI accuracy. XAI benefits were observed when the system correctly detected and highlighted the fault, but XAI costs were evident for misplaced highlights that marked an intact area while the actual fault was located elsewhere. Eye movement analyses indicated that participants spent less time searching the rest of the mould and thus looked at the fault less often. However, we also observed large interindividual differences. Taken together, the results suggest that despite its potentials, XAI can discourage people from investing effort into their own information analysis.},
    author = {Romy Müller and David F. Reindel and Yannick D. Stadtfeld},
@@ -148,11 +200,6 @@ Artificial Intelligence},
    title = {Malawi: Minister Chiponda Says Cancer Centre to Open in December 2023},
    url = {https://allafrica.com/stories/202308100415.html},
    year = {2023}
-}
-@misc{Delft-Imaging2023,
-   author = {Delft-Imaging},
-   title = {The Iraqi Ministry of Health has adopted CAD4TB to enhance early detection of TB nationwide. - YouTube},
-   url = {https://www.youtube.com/watch?v=p8oYl035XgM&t=18s}
 }
 
 @misc{Mayo-clinic,
