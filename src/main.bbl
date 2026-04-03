@@ -1,0 +1,240 @@
+\begin{thebibliography}{22}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Alharthi et~al.(2024)Alharthi, Alqurashi, Alharbi, Alammar, Aldosari,
+  Bouchekara, Shaaban, Shahriar, and Ayidh]{Alharthi2024}
+Abdullah Alharthi, Ahmed Alqurashi, Turki Alharbi, Mohammed Alammar, Nasser
+  Aldosari, Houssem Bouchekara, Yusuf Shaaban, Mohammad~Shoaib Shahriar, and
+  Abdulrahman~Al Ayidh.
+\newblock The role of explainable ai in revolutionizing human health
+  monitoring: A review.
+\newblock 9 2024.
+\newblock URL \url{https://arxiv.org/abs/2409.07347v3}.
+
+\bibitem[CheckTB(2025)]{CheckTB2025}
+CheckTB.
+\newblock Cad for tb: proven artificial intelligence.
+\newblock 2025.
+\newblock URL \url{https://www.checktb.com/ai-description}.
+
+\bibitem[Chinkhumba(2025)]{Chinkhumba2025}
+Jobiba Chinkhumba.
+\newblock Artificial intelligence and task shifting: Opportunities for
+  strengthening health systems in malawi.
+\newblock \emph{Malawi Medical Journal}, 2025.
+\newblock URL \url{https://www.mmj.mw/?p=13551}.
+
+\bibitem[Ciresan et~al.(2012)Ciresan, Meier, and Schmidhuber]{Ciresan2012}
+Dan Ciresan, Ueli Meier, and Jurgen Schmidhuber.
+\newblock Multi-column deep neural networks for image classification
+  supplementary online material.
+\newblock \emph{Computer Vision and Pattern Recognition (CVPR), 2012 IEEE
+  Conference on}, pages 3642--3649, 2012.
+\newblock ISSN 1063-6919.
+\newblock URL \url{http://arxiv.org/abs/1202.2745}.
+
+\bibitem[Delft-Imaging()]{Delft-Imaging2023}
+Delft-Imaging.
+\newblock Malawi - active tb case-finding with onestoptb clinic - delft
+  imaging.
+\newblock URL
+  \url{https://delft.care/malawi-active-tb-case-finding-with-onestoptb-clinic/}.
+
+\bibitem[Delft-Imaging(2025)]{Delft-Imaging2025}
+Delft-Imaging.
+\newblock Introducing cad4tb+: Unifying tb detection and surveillance.
+\newblock 2025.
+\newblock URL
+  \url{https://delft.care/introducing-cad4tb-unifying-tb-detection-and-surveillance/}.
+
+\bibitem[Fehr et~al.(2021)Fehr, Konigorski, Olivier, Gunda, Surujdeen, Gareta,
+  Smit, Baisley, Moodley, Moosa, Hanekom, Koole, Ndung’u, Pillay, Grant,
+  Siedner, Lippert, Wong, Ramnanan, Mkhwanazi, Rapulana, Singh, Govender,
+  Zungu, Mfolo, Magwaza, Ndlovu, Mavimbela, Criticos, Munatsi, Kalyan, Mlambo,
+  Mfeka, Mabetlela, Ording-Jespersen, Keal, Dlamini, Khathi, Chonco, Gumede,
+  Khumalo, Ngubane, Shen, Kambonde, Mpofana, Kwinda, Dreyer, Cousins, Kalideen,
+  Seeley, Chetty, Brien, Nyamande, Moropane, Malomane, Khan, Buthelezi,
+  Perumal, Herbst, Mthembu, Pillay, Dlamini, Zikhali, Mbuyisa, Mofokeng,
+  Sibiya, Dube, Suleman, Steto, Buthelezi, Padayachi, Gqaleni, Mhlongo,
+  Ntshakala, Majozi, Zondi, Luthuli, Ngema, Buthelezi, Mfeka, Khuluse, Mabaso,
+  Zitha, Mfekayi, Mzimela, Mbonambi, Mkhwanazi, Ntombela, Ramkalawon, Tshivase,
+  Mkhwanazi, Mathews, Mthethwa, Ngcobo, Jackpersad, Zondo, Singh, Myeni,
+  Bucibo, Mthembu, Harilall, Makhari, Mchunu, Mkhwanazi, Gumbi, Nene, Mhlongo,
+  Mkhwanazi, Nsibande, Ntshangase, Dlamini, Ngcobo, Nsibande, Nxumalo, Ndlela,
+  Mthombeni, Zulu, Mthembu, Ntuli, Ntimbane, Zondi, Khoza, Nkosi, Bhengu,
+  Simelane, Modise, Madolo, Vellem, Mthembu, Mkhize, Mbatha, Buthelezi,
+  Mthembu, and Sikhosana]{Fehr2021}
+Jana Fehr, Stefan Konigorski, Stephen Olivier, Resign Gunda, Ashmika Surujdeen,
+  Dickman Gareta, Theresa Smit, Kathy Baisley, Sashen Moodley, Yumna Moosa,
+  Willem Hanekom, Olivier Koole, Thumbi Ndung’u, Deenan Pillay, Alison~D.
+  Grant, Mark~J. Siedner, Christoph Lippert, Emily~B. Wong, Anand Ramnanan,
+  Anele Mkhwanazi, Antony Rapulana, Anupa Singh, Ashentha Govender, Ayanda
+  Zungu, Boitsholo Mfolo, Bongani Magwaza, Bongumenzi Ndlovu, Clive Mavimbela,
+  Costa Criticos, Day Munatsi, Dilip Kalyan, Doctar Mlambo, Fezeka Mfeka,
+  Freddy Mabetlela, Gregory Ording-Jespersen, Hannah Keal, Hlengiwe Dlamini,
+  Hlengiwe Khathi, Hlobisile Chonco, Hlobisile Gumede, Hlolisile Khumalo,
+  Hloniphile Ngubane, Hollis Shen, Hosea Kambonde, Innocentia Mpofana, Jabu
+  Kwinda, Jaco Dreyer, Jade Cousins, Jaikrishna Kalideen, Janet Seeley,
+  Kandaseelan Chetty, Kayleen Brien, Kennedy Nyamande, Kgaugelo Moropane,
+  Khabonina Malomane, Khadija Khan, Khanyisani Buthelezi, Kimeshree Perumal,
+  Kobus Herbst, Lindani Mthembu, Logan Pillay, Mandisi Dlamini, Mandlakayise
+  Zikhali, Mbali Mbuyisa, Mbuti Mofokeng, Melusi Sibiya, Mlungisi Dube, Mosa
+  Suleman, Mpumelelo Steto, Mzamo Buthelezi, Nagavelli Padayachi, Nceba
+  Gqaleni, Ngcebo Mhlongo, Nokukhanya Ntshakala, Nomathamsanqa Majozi,
+  Nombuyiselo Zondi, Nomfundo Luthuli, Nomfundo Ngema, Nompilo Buthelezi,
+  Nonceba Mfeka, Nondumiso Khuluse, Nondumiso Mabaso, Nondumiso Zitha,
+  Nonhlanhla Mfekayi, Nonhlanhla Mzimela, Nozipho Mbonambi, Ntombiyenhlanhla
+  Mkhwanazi, Ntombiyenkosi Ntombela, Pamela Ramkalawon, Pfarelo Tshivase,
+  Phakamani Mkhwanazi, Philippa Mathews, Phumelele Mthethwa, Phumla Ngcobo,
+  Ramesh Jackpersad, Raynold Zondo, Rochelle Singh, Rose Myeni, Sanah Bucibo,
+  Sandile Mthembu, Sashin Harilall, Senamile Makhari, Seneme Mchunu, Senzeni
+  Mkhwanazi, Sibahle Gumbi, Siboniso Nene, Sibusiso Mhlongo, Sibusiso
+  Mkhwanazi, Sibusiso Nsibande, Simphiwe Ntshangase, Siphephelo Dlamini,
+  Sithembile Ngcobo, Siyabonga Nsibande, Siyabonga Nxumalo, Sizwe Ndlela,
+  Skhumbuzo Mthombeni, Smangaliso Zulu, Sphiwe~Clement Mthembu, Sphiwe Ntuli,
+  Talente Ntimbane, Thabile Zondi, Thandeka Khoza, Thengokwakhe Nkosi,
+  Thokozani Bhengu, Thokozani Simelane, Tshwaraganang Modise, Tumi Madolo,
+  Velile Vellem, Welcome~Petros Mthembu, Xolani Mkhize, Zamashandu Mbatha,
+  Zinhle Buthelezi, Zinhle Mthembu, and Zizile Sikhosana.
+\newblock Computer-aided interpretation of chest radiography reveals the
+  spectrum of tuberculosis in rural south africa.
+\newblock \emph{NPJ Digital Medicine}, 4:\penalty0 106, 12 2021.
+\newblock ISSN 23986352.
+\newblock \doi{10.1038/S41746-021-00471-Y}.
+\newblock URL \url{https://pmc.ncbi.nlm.nih.gov/articles/PMC8253848/}.
+
+\bibitem[Giunchiglia et~al.(2023)Giunchiglia, Imrie, van~der Schaar, and
+  Lukasiewicz]{Giunchiglia2023}
+Eleonora Giunchiglia, Fergus Imrie, Mihaela van~der Schaar, and Thomas
+  Lukasiewicz.
+\newblock Machine learning with requirements: a manifesto.
+\newblock \emph{Neurosymbolic Artificial Intelligence}, 1, 4 2023.
+\newblock ISSN 2949-8732.
+\newblock \doi{10.3233/nai-240767}.
+\newblock URL \url{https://arxiv.org/abs/2304.03674v2}.
+
+\bibitem[Hawn et~al.(2014)Hawn, Day, Scriba, Hatherill, Hanekom, Evans,
+  Churchyard, Kublin, Bekker, and Self]{Hawn2014}
+Thomas~R. Hawn, Tracey~A. Day, Thomas~J. Scriba, Mark Hatherill, Willem~A.
+  Hanekom, Thomas~G. Evans, Gavin~J. Churchyard, James~G. Kublin, Linda-Gail
+  Bekker, and Steven~G. Self.
+\newblock Tuberculosis vaccines and prevention of infection.
+\newblock \emph{Microbiology and Molecular Biology Reviews}, 78:\penalty0
+  650--71, 12 2014.
+\newblock ISSN 1092-2172.
+\newblock \doi{10.1128/MMBR.00021-14}.
+\newblock URL
+  \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4248657#id-name=PMC
+  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4248657}.
+
+\bibitem[insight cxr4(2025)]{Lunit-insight-cxr42025}
+Lunit insight cxr4.
+\newblock Chest x-ray ai one solution for your entire cxr pathway.
+\newblock 2025.
+\newblock URL
+  \url{https://www.lunit.io/en/wp-content/uploads/resources/Global_Brochure_CXR4_2025_06_v2%20(1).pdf}.
+
+\bibitem[KUHES(2024)]{KUHES2024}
+KUHES.
+\newblock Malawi national tb and leprosy elimination programme releases
+  tuberculosis and leprosy guidelines.
+\newblock 2024.
+\newblock URL
+  \url{https://www.kuhes.ac.mw/malawi-national-tb-and-leprosy-elimination-programme-releases-tuberculosis-and-leprosy-guidelines/}.
+
+\bibitem[Kumar et~al.(2025)Kumar, Vaeth, and Gregorová]{Kumar2025}
+Dibyanshu Kumar, Philipp Vaeth, and Magda Gregorová.
+\newblock Loss functions in diffusion models: A comparative study.
+\newblock 7 2025.
+\newblock URL \url{https://arxiv.org/abs/2507.01516v1}.
+
+\bibitem[Li et~al.(2022)Li, Li, Jiang, Weng, Geng, Li, Ke, Li, Cheng, Nie, Li,
+  Zhang, Liang, Zhou, Xu, Chu, Wei, and Wei]{Li2022}
+Chuyi Li, Lulu Li, Hongliang Jiang, Kaiheng Weng, Yifei Geng, Liang Li, Zaidan
+  Ke, Qingyuan Li, Meng Cheng, Weiqiang Nie, Yiduo Li, Bo~Zhang, Yufei Liang,
+  Linyuan Zhou, Xiaoming Xu, Xiangxiang Chu, Xiaoming Wei, and Xiaolin Wei.
+\newblock Yolov6: A single-stage object detection framework for industrial
+  applications.
+\newblock 9 2022.
+\newblock URL \url{https://arxiv.org/abs/2209.02976v1}.
+
+\bibitem[Lundberg and Lee(2017)]{Lundberg2017}
+Scott~M. Lundberg and Su~In Lee.
+\newblock A unified approach to interpreting model predictions.
+\newblock \emph{Advances in Neural Information Processing Systems},
+  2017-December:\penalty0 4766--4775, 5 2017.
+\newblock ISSN 10495258.
+\newblock URL \url{https://arxiv.org/abs/1705.07874v2}.
+
+\bibitem[Mayo-clinic()]{Mayo-clinic}
+Mayo-clinic.
+\newblock Tuberculosis - diagnosis \& treatment - mayo clinic.
+\newblock URL
+  \url{https://www.mayoclinic.org/diseases-conditions/tuberculosis/diagnosis-treatment/drc-20351256}.
+
+\bibitem[Mazeika et~al.(2025)Mazeika, Yin, Tamirisa, Lim, Lee, Ren, Phan, Mu,
+  Khoja, Zhang, and Hendrycks]{Mazeika2025}
+Mantas Mazeika, Xuwang Yin, Rishub Tamirisa, Jaehyuk Lim, Bruce~W. Lee, Richard
+  Ren, Long Phan, Norman Mu, Adam Khoja, Oliver Zhang, and Dan Hendrycks.
+\newblock Utility engineering: Analyzing and controlling emergent value systems
+  in ais.
+\newblock 2 2025.
+\newblock URL \url{http://arxiv.org/abs/2502.08640}.
+
+\bibitem[Müller et~al.(2023)Müller, Reindel, and Stadtfeld]{Mller2023}
+Romy Müller, David~F. Reindel, and Yannick~D. Stadtfeld.
+\newblock The benefits and costs of explainable artificial intelligence in
+  visual quality control: Evidence from fault detection performance and eye
+  movements.
+\newblock \emph{Human Factors and Ergonomics in Manufacturing and Service
+  Industries}, 34:\penalty0 396--416, 11 2023.
+\newblock \doi{10.1002/hfm.21032}.
+\newblock URL \url{http://arxiv.org/abs/2310.01220
+  http://dx.doi.org/10.1002/hfm.21032}.
+
+\bibitem[PennState()]{PennStateIct}
+PennState.
+\newblock Machine learning — ict research methods.
+\newblock URL \url{https://ictresearchmethods.nl/machine-learning/}.
+
+\bibitem[Ribeiro et~al.(2016)Ribeiro, Singh, and Guestrin]{Ribeiro2016}
+Marco~Tulio Ribeiro, Sameer Singh, and Carlos Guestrin.
+\newblock "why should i trust you?": Explaining the predictions of any
+  classifier.
+\newblock \emph{NAACL-HLT 2016 - 2016 Conference of the North American Chapter
+  of the Association for Computational Linguistics: Human Language
+  Technologies, Proceedings of the Demonstrations Session}, pages 97--101, 2
+  2016.
+\newblock \doi{10.18653/v1/n16-3020}.
+\newblock URL \url{https://arxiv.org/abs/1602.04938v3}.
+
+\bibitem[Suthers(2025)]{Suthers2025}
+Mark Suthers.
+\newblock Understanding ai heat maps and display - youtube, 2025.
+\newblock URL \url{https://www.youtube.com/watch?v=kJTUIFDN5ko}.
+
+\bibitem[Twabi et~al.(2021)Twabi, Semphere, Mukoka, Chiume, Nzawa, Feasey,
+  Lipenga, MacPherson, Corbett, and Nliwasa]{Twabi2021}
+Hussein~H. Twabi, Robina Semphere, Madalo Mukoka, Lingstone Chiume, Rebecca
+  Nzawa, Helena~R.A. Feasey, Trancizeo Lipenga, Peter MacPherson, Elizabeth~L.
+  Corbett, and Marriott Nliwasa.
+\newblock Pattern of abnormalities amongst chest x-rays of adults undergoing
+  computer-assisted digital chest x-ray screening for tuberculosis in
+  peri-urban blantyre, malawi: A cross-sectional study.
+\newblock \emph{Tropical Medicine and International Health}, 26:\penalty0
+  1427--1437, 11 2021.
+\newblock ISSN 13653156.
+\newblock \doi{10.1111/TMI.13658}.
+
+\bibitem[WHO(2023)]{WHO2023}
+WHO.
+\newblock Country disease outlook.
+\newblock 2023.
+\newblock URL
+  \url{https://www.afro.who.int/sites/default/files/2023-08/Malawi.pdf}.
+
+\end{thebibliography}

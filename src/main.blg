@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99e (TeX Live 2026/Arch Linux)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: plainnat.bst
+Database file #1: ref.bib
+Warning--empty journal in Alharthi2024
+Warning--empty journal in CheckTB2025
+Warning--empty year in Delft-Imaging2023
+Warning--empty journal in Delft-Imaging2025
+Warning--empty journal in Lunit-insight-cxr42025
+Warning--empty journal in KUHES2024
+Warning--empty journal in Kumar2025
+Warning--empty journal in Li2022
+Warning--empty year in Mayo-clinic
+Warning--empty journal in Mazeika2025
+Warning--empty year in PennStateIct
+Warning--empty journal in WHO2023
+You've used 22 entries,
+            2773 wiz_defined-function locations,
+            752 strings with 13315 characters,
+and the built_in function-call counts, 17814 in all, are:
+= -- 1353
+> -- 2026
+< -- 13
++ -- 682
+- -- 660
+* -- 1744
+:= -- 3005
+add.period$ -- 95
+call.type$ -- 22
+change.case$ -- 286
+chr.to.int$ -- 22
+cite$ -- 56
+duplicate$ -- 438
+empty$ -- 755
+format.name$ -- 684
+if$ -- 3471
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 18
+newline$ -- 147
+num.names$ -- 88
+pop$ -- 574
+preamble$ -- 1
+purify$ -- 264
+quote$ -- 0
+skip$ -- 505
+stack$ -- 0
+substring$ -- 205
+swap$ -- 42
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 242
+warning$ -- 12
+while$ -- 75
+width$ -- 0
+write$ -- 325
+(There were 12 warnings)

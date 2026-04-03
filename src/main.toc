@@ -1,0 +1,44 @@
+\contentsline {section}{\numberline {1}Chapter One: Introduction}{9}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Background of the study}{9}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Problem Statement}{10}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Aim and objectives}{10}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Aim}{10}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Objectives}{11}{subsubsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.4}Research Questions}{11}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Significance of study}{11}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Summary}{11}{subsection.1.6}%
+\contentsline {section}{\numberline {2}Chapter Two: Literature Review}{12}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Key Concepts and Terms}{12}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Artificial Intelligence}{12}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Tuberculosis Detection}{12}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Explainable AI}{12}{subsubsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.2}Current models and Weaknesses}{13}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}CAD4TB}{13}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Lunit insight CXR}{13}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}QureAI}{14}{subsubsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.3}Research gaps}{14}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Summary}{15}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Chapter Three: Methodology}{16}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Data Collection}{16}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Data collection techniques}{16}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Chest X-ray images}{16}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Radiologist and clinician reports}{17}{subsubsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.4}Sampling}{17}{subsubsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.2}Machine learning approach}{18}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Requirements Definition}{19}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Data curation}{19}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Model creation}{19}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Model Training}{19}{subsubsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.5}Explainability integration}{19}{subsubsection.3.2.5}%
+\contentsline {subsubsection}{\numberline {3.2.6}Model testing}{20}{subsubsection.3.2.6}%
+\contentsline {subsubsection}{\numberline {3.2.7}Model deployment}{20}{subsubsection.3.2.7}%
+\contentsline {subsection}{\numberline {3.3}Application wrapper approach}{20}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Ethical consideration}{20}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Summary}{20}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Chapter Four: Limitation of Study}{22}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Training Hardware}{22}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Explainable engine choice}{22}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Summary}{22}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Chapter Five: Research Plan}{23}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Time Frame}{23}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Budget}{23}{subsection.5.2}%
