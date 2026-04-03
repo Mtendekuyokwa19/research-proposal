@@ -154,7 +154,7 @@ This is a field of research that explores methods that provide humans with the a
 Explainable AI aims to make AI decisions transparent, understandable, and interpretable. The
 lack of interpretability in AI systems has raised concerns about trust, accountability, and fairness. Without explainations user is left in the dark unable to understand why the decision was made or what could be done for improvement @Alharthi2024. Models might sometimes predict an outcome with high accuracy, but the reasoning behind it is unkown. The lack of explainability leads to trust and accountability issues, it also leads to easir debugging of models hence finding points of improvements.
 
-== Current Systems and Weaknesses
+== Current models and Weaknesses
 There are multiple AI integrated tuberculosis detection models already developed. The following are the most notable ones.
 === CAD4TB
 
@@ -222,7 +222,7 @@ In the development of the model, we will follow the pyramid appraoch, which invo
 The _fig1_ below shows how the pyramid model works. It is composed of the following components: Requirements Definition, Data curation, Model creation, Model training, Model testing and model deployment.
 
 #figure(
-  image("../pyramid.png", width: 80%),
+  image("./pyramid.png", width: 80%),
   caption: [
     a figure of of the pyramid approach for model development @Giunchiglia2023
   ],
@@ -252,7 +252,7 @@ The Prototype approach will specifically the of incremental prototyping where th
 == Ethical considaration
 With artitifical intelligence, ethics have to be considered because if one overlooks them social problems arise. The study will consider multiple of these ethical issues.
 #table(
-  columns: (auto, auto),
+  columns: (auto, auto, auto),
   table.header[Risk][Description][Mitigation],
   [Equpment bias],[Images from high-end hospitals perform better],[Test on diverse equipment/settings],
   [Annotation bias],[Radiologist labels reflect subjective judgment],[Combine radiologist opinion + microbiology + clinical follow-up],
